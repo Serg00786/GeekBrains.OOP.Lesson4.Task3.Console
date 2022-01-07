@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Buildings.cs" />
-    <Compile Include="Creator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,6 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeekBrains.OOP.Lesson4.Task3.Creator\GeekBrains.OOP.Lesson4.Task3.Creator.csproj">
+      <Project>{e26f198b-6515-4264-96d4-639e1fe82af7}</Project>
+      <Name>GeekBrains.OOP.Lesson4.Task3.Creator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
